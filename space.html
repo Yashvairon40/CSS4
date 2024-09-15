@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+              background-color:black;
+              color:white;
+              font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        }
+        h1{
+            color:rgba(22, 22, 140, 0.99);
+
+        }
+        a{
+            color:darkcyan;
+            text-decoration: none;
+        }
+        a:hover{
+            color:aqua;
+        }
+        ul>li{
+            font-weight: bolder;
+        }
+        .black{
+            background-color: rgba(58, 104, 115, 0.441);
+            border-radius:5px;
+            padding:10px;
+        }
+        ul li:hover{
+            color:#4f8CC9;
+
+        }
+        /* ::before Pseudo-element */
+ul li::before {
+    content: "🚀 ";
+}
+
+/* ::after Pseudo-element */
+a::after {
+    content: " 🌌";
+} 
+ul li:nth-child(3){
+    background-color: rgb(23, 23, 112);
+}
+p:not(:first-of-type){
+    text-decoration: underline;
+}
+p::first-letter{
+    color:orange;
+    font-size:200%;
+    font-family:cursive
+} 
+
+
+    </style>
+    
+</head>
+<body>
+    <h1>Welcome to the Official Website for ISRO</h1>
+    <ul>
+        <li>Moon missions</li>
+        <li>Mars rovers</li>
+        <li>ISS</li>
+        <li>Telescopes and stars</li>
+        <li>Black holes mysteries</li>
+        
+    </ul>
+    <p class="black">Indian Space Research Organisation is India's national space agency. It serves as the principal research and development arm of the Department of Space, overseen by the Prime Minister of India, with the Chairman of ISRO also serving as the chief executive of the DoS.</p>
+    
+    <p>It is primarily responsible for space-based operations, space exploration, international space cooperation and the development of related technologies. The agency maintains a constellation of imaging, communication and remote sensing satellites. It operates the GAGAN and IRNSS satellite navigation systems.</p>
+    <a href="#">Join us</a>
+    <a href="#">Latest Space News</a>
+    <a href="#">Gallery of the Universe</a>
+    
+    
+</body>
+</html>
